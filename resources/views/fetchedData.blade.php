@@ -25,7 +25,7 @@
     <a href="create">Create Notes list</a>
             <table class="table">
                 <tr>
-                    <td>To do</td>
+                    <td>Todo</td>
                     <td>Name</td>
                     <td>Created At</td>
                     <td>Action</td>
