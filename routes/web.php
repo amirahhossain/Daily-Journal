@@ -23,7 +23,7 @@ Route::get('todo_submit', 'App\http\Controllers\TodolistController@todo_submit')
 
 Route::get('edit/{id}', 'App\http\Controllers\TodolistController@edit');
 
-Route::get('edit_submit/(id)', 'App\http\Controllers\TodolistController@edit_submit');
+Route::get('edit_submit/{id}', 'App\http\Controllers\TodolistController@edit_submit');
 
 
 

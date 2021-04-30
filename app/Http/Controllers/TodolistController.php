@@ -45,7 +45,7 @@ class TodolistController extends Controller
     public function edit_submit(Request $req, $id){
 
        
-         $todo = noteslist::find($id);
+         $todo = todolist::find($id);
          $todo->name = $req->input('name');
          $todo->save();
          return redirect('/');

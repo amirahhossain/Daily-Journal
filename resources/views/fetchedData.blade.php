@@ -22,6 +22,7 @@
         </style>
     </head>
     <body>
+    <a href="create">Daily Journal</a> <br>
     <a href="create">Create Notes list</a>
             <table class="table">
                 <tr>
